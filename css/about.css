@@ -1,0 +1,36 @@
+/* Styling profile in about page */
+.profile{
+    height: 200px;
+}
+.profile>img{
+    float: left;
+    margin-left: 15%;
+    width: 300px;
+    border-radius: 50%;
+}
+.profilediv{
+    float: right;
+    margin-right: 45%;
+    margin-top: 10%;
+}
+/* Styling list of experiances */
+.experians>h2{
+    text-align: center;
+    margin-top: 150px;
+    background-color: gray;
+    width: 30%;
+    margin-left: 35%;
+
+}
+.left{
+    float: left;
+    margin-left: 15%;
+    margin-top: 50px;
+
+}
+.right{
+    float: right;
+    margin-right: 55%;
+    margin-top: 50px;
+
+}
