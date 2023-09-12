@@ -23,12 +23,7 @@
     
 }
 /* Styling <a> tag in navbar */
-.astyle{
-    a:hover{
-        color: red;
-    }
 
-}
 
 /* Styling the page header */
 .pageTitle{
@@ -58,5 +53,28 @@ footer{
     border-bottom: 5px solid black;
     border-top: 5px solid black;
     border-radius: 10px;
+
+}
+/* Styling gird */
+
+.gridmain{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    grid-column-gap: 10px;
+    grid-row-gap: 10px;
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background-color: gray;
+    text-align: center;
+    border-bottom: 5px solid black;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    list-style-type: none;
+    overflow: hidden;
 
 }
