@@ -20,7 +20,16 @@
     display: inline;
     padding: 10px;
     font-size: 30px;
+    
 }
+/* Styling <a> tag in navbar */
+.astyle{
+    a:hover{
+        color: red;
+    }
+
+}
+
 /* Styling the page header */
 .pageTitle{
     font-size: 50px;
