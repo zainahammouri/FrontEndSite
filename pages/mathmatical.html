@@ -3,12 +3,13 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>News</title>
+    <title>Math</title>
     <link rel="stylesheet" type="text/css" href="../css/nav.css">
+    <link rel="stylesheet" type="text/css" href="../css/math.css">
 </head>
 <body>
      <!-- The page Headar -->
-     <h1 class="pageTitle">News page</h1>
+     <h1 class="pageTitle">Mathmatical page</h1>
      <!-- creat A navbar for the homePage contain news , contact and about page  -->
      <div class="container">
          <ul>
@@ -19,9 +20,26 @@
              <li><a href="mathmatical.html">Math</a></li>
          </ul>
      </div>
+     <div class="mathcontainer">
+         <h2>Mathmatical</h2>
+         <h3>Even or not</h3>
+         <input type="number" id="Mathmatical" placeholder="Enter a number">
+         <button onclick="EvenOrOdd()">Check</button>
+         <p id="result"></p>
+     </div>
+     <div class="mathcontainer">
+        
+         <h2>Mathmatical</h2>
+         <h3>Prime or Not Prime</h3>
+         <input type="number" id="input" placeholder="Enter a number">
+         <button onclick="PrimeOrNot()">Check</button>
+         <p id="res"></p>
+     </div>
+     
      <footer>
          <p>Copy Right &copy; 2023</p>
          <p>Disigned by <a href="">Zaina Hammouri</a></p>
      </footer>
+     <script src="../js/math.js"></script>
 </body>
 </html>
